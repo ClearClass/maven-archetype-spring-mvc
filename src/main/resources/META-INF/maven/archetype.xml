@@ -1,0 +1,17 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0
+                               http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+   <id>Архетип Spring MVC приложения. Содержит формирующий модель контроллер и jsp-страницу в качестве представления.</id>
+   <sources>
+      <source>src/main/java/MainController.java</source>
+   </sources>
+   <testSources>
+      <source>src/test/java/MainTest.java</source>
+   </testSources>
+   <resources>
+      <resource>src/main/webapp/WEB-INF/web.xml</resource>
+      <resource>src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml</resource>
+      <resource>src/main/webapp/WEB-INF/views/index.jsp</resource>
+   </resources>
+</archetype>
